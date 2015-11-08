@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe762">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Během Vašeho pobytu u nás se budete moci těšit z celé řady gastronomických specialit a delikates, které Vám v našich restauracích a barech každý den až do půlnoci nabízíme.Hotel Olšanka nabízí 610 lůžek v pestré pokojové skladbě, kterou tvoří jednolůžkový nebo dvojlůžkový pokoj standard, Lux s terasou a výhledem na Prahu nebo pro náročné art Deco pokoje Superior. Dále jsou hostům k dispozici rodinné apartmány pro 3 až 4 osoby.  Pokoje jsou nekuřácké, ale s cílem uspokojit i přání kuřáckých hostů byla vyčleněna dvě patra kuřácká. Všechny pokoje jsou vybaveny příjemným nábytkem, televizorem se satelitním příjmem, telefonem s přímou volbou, připojením k internetu prostřednictvím vysokorychlostního WiFi signálu a nově zrekonstruovanou koupelnou s vanou (popř. sprchovým koutem) a toaletou.  "
+        android:id="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

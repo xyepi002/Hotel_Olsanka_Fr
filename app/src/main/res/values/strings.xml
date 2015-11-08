@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hotel_Olsanka</string>
+
+
+
+    <string name="item1">Wi-fi</string>
+    <string name="item2">Telefon</string>
+    <string name="item3">Restaurace</string>
+    <string name="item4">Web-kamery</string>
+</resources>

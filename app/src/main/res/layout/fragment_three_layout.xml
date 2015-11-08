@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe762">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luxusní"
+        android:id="@+id/button"
+        android:backgroundTint="#3febd2"
+        android:width="120dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obyčejný"
+        android:id="@+id/button6"
+        android:backgroundTint="#3febd2"
+        android:width="120dp"
+        android:layout_alignTop="@+id/button"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel Olšanka nabízí 610 lůžek v pestré pokojové skladbě, kterou tvoří jednolůžkový nebo dvojlůžkový pokoj standard, Lux s terasou a výhledem na Prahu nebo pro náročné art Deco pokoje Superior. Dále jsou hostům k dispozici rodinné apartmány pro 3 až 4 osoby.  Pokoje jsou nekuřácké, ale s cílem uspokojit i přání kuřáckých hostů byla vyčleněna dvě patra kuřácká. Všechny pokoje jsou vybaveny příjemným nábytkem, televizorem se satelitním příjmem, telefonem s přímou volbou, připojením k internetu prostřednictvím vysokorychlostního WiFi signálu a nově zrekonstruovanou koupelnou s vanou (popř. sprchovým koutem) a toaletou.  "
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

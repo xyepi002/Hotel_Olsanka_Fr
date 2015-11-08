@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main" tools:context=".MainActivity"
+    android:background="#ffe762">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kontakty"
+        android:id="@+id/b5"
+        android:layout_below="@+id/b4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/fr1_id"
+        android:layout_toStartOf="@+id/fr1_id"
+        android:backgroundTint="#45c921" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sluzby"
+        android:id="@+id/b2"
+        android:layout_below="@+id/b1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/b1"
+        android:layout_alignEnd="@+id/b1"
+        android:backgroundTint="#45c921" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rezervace"
+        android:id="@+id/b1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="#45c921" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O Hotelu"
+        android:id="@+id/b4"
+        android:layout_below="@+id/b3"
+        android:layout_alignLeft="@+id/b5"
+        android:layout_alignStart="@+id/b5"
+        android:layout_toLeftOf="@+id/fr1_id"
+        android:layout_toStartOf="@+id/fr1_id"
+        android:backgroundTint="#45c921" />
+
+    <RelativeLayout
+        android:id="@+id/fr1_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/b2"
+        android:layout_toEndOf="@+id/b2"
+        android:layout_alignParentTop="true">
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POkoje"
+        android:id="@+id/b3"
+        android:layout_below="@+id/b2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/fr1_id"
+        android:layout_toStartOf="@+id/fr1_id"
+        android:backgroundTint="#45c921" />
+</RelativeLayout>
